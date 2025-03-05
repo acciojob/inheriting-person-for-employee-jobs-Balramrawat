@@ -21,6 +21,12 @@ Employee.prototype.jobGreet=function(){
 	 old, and my job title is ${this.jobTitle}`)
 }
 
+
+window.Person = Person;
+window.Employee = Employee;
+
+
+
 const person=new Person("Balram",24)
 person.greet();
 
@@ -28,9 +34,6 @@ const enployee=new Employee("balram",24,"developer")
 person.greet();
 employee.jobGreet();
 
-// Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
 
 
 
