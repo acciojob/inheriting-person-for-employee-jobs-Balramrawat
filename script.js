@@ -13,7 +13,7 @@ function Employee(name, age, jobTitle) {
 	this.jobTitle=jobTitle
 }
 
-Employee.prototype=Object.creat(Person.prototype)
+Employee.prototype=Object.create(Person.prototype)
 Employee.prototype.constructor=Employee
 
 Employee.prototype.jobGreat=function(){
