@@ -9,7 +9,7 @@ Person.prototype.greet=function(){
 }
 
 function Employee(name, age, jobTitle) {
-	Person.call(this,name,age)
+	Person.call(name,age)
 	this.jobTitle=jobTitle
 }
 
@@ -25,6 +25,7 @@ const person=new Person("Balram",24)
 person.greet();
 
 const enployee=new Employee("balram",24,"developer")
+person.greet();
 employee.jobGreet();
 
 // Do not change code below this line
